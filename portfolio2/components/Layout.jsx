@@ -4,8 +4,10 @@ import Sidenavbar from "./Sidenavbar";
 const Layout = ({ children }) => {
   return (
     <>
-      <Sidenavbar />
-      {children}
+      <div>
+        <Sidenavbar />
+        {children}
+      </div>
     </>
   );
 };
